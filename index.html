@@ -272,7 +272,7 @@
          */
 
         var receiverElem = document.getElementById('receiver').contentWindow;
-        receiverElem.postMessage(data, "https://amelia.ipsoft.com/Amelia/ui/AmeliaCust/52?domainCode=hrms");
+        receiverElem.postMessage(data, "https://amelia.ipsoft.com/Amelia/ui/AmeliaCust?domainCode=hrms");
     }
 
     window.addEventListener('message', receiveMessage);
